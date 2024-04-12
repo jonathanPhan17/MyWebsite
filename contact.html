@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | UCSBreakin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Contact Form</h1>
+   <p class="contacts-info">
+      Please fill out this form with the required information
+    </p>
+    <form action="https://formspree.io/xgegvlbq" method="post">
+      <fieldset>
+        <p>First Name</p>
+          <input type="text" name="lirstname" placeholder="First Name" required />
+        <p>Last Name</p>
+          <input type="text" name="lastname" placeholder="Last Name" required />
+        <p>Email</p>
+          <input type="email" name="email" placeholder="Email" required />
+        <p>Write a comment</p>
+          <textarea
+            name="comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            placeholder="write a comment"
+          ></textarea>
+      </fieldset>
+      <button type="submit">Send</button>
+    </form>
+</body>
+</html>
