@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | UCSBreakin</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
@@ -16,28 +17,48 @@
       </ul>
     </nav>
   </header>
-  <h1>Contact Form</h1>
-   <p class="contacts-info">
-      Please fill out this form with the required information
-    </p>
-    <form action="https://formspree.io/xgegvlbq" method="post">
-      <fieldset>
-        <p>First Name</p>
-          <input type="text" name="lirstname" placeholder="First Name" required />
-        <p>Last Name</p>
-          <input type="text" name="lastname" placeholder="Last Name" required />
-        <p>Email</p>
-          <input type="email" name="email" placeholder="Email" required />
-        <p>Write a comment</p>
-          <textarea
-            name="comment"
-            id="comment"
-            cols="30"
-            rows="10"
-            placeholder="write a comment"
-          ></textarea>
-      </fieldset>
-      <button type="submit">Send</button>
-    </form>
+  <main>
+    <div class="form-container">
+      <h1>Contact Form</h1>
+      <p class="contacts-info">
+          Please fill out this form with the required information
+        </p>
+        <form action="https://formspree.io/xgegvlbq" method="post">
+          <fieldset>
+            <p>First Name</p>
+              <input type="text" name="lastname" placeholder="First Name" required />
+            <p>Last Name</p>
+              <input type="text" name="lastname" placeholder="Last Name" required />
+            <p>Email</p>
+              <input type="email" name="email" placeholder="Email" required />
+            <p>Write a comment</p>
+              <textarea
+                name="comment"
+                id="comment"
+                cols="30"
+                rows="10"
+                placeholder="write a comment"
+              ></textarea>
+          </fieldset>
+          <button type="submit">Send</button>
+        </form>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/ucsbreakin" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/ucsbreakin/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@ucsbreakinclub1994" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <div class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
